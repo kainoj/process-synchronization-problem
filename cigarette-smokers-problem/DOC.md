@@ -20,7 +20,7 @@ Setups and initiates four semaphores, three smoker threads and an agent thread.
 Smoker process: `smoker(void *_ownedMaterial)`. Each smoker waits under one of the follwing semaphores: `PaperAndMatches`, `TobaccoAndPaper`, `MatchesAndTobacco`. Having been signaled the smoker grabs the items, rolls and smokes for `SMOKINGTIME` seconds. After all `Delivery` semaphore is signaled, which allows agent to do his job.
 
 ####`agent.c`
-Agent process. `agent()` - all it does is waiting for the table to be empty and putting (`putOnTheTable()`) randomly chosen two ingredients. Certain smoker is allowed to grab them(a semaphore is raised). For debugging purposes the agent puts supplies only `DELIVERIES` times.
+Agent process. `agent()` - all it does is waiting for the table to be empty and putting (`putOnTheTable()`) randomly chosen two ingredients. Certain smoker is allowed to grab them (a semaphore is raised). For debugging purposes the agent puts supplies only `DELIVERIES` times.
 
 
 ####`main.h`
