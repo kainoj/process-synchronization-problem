@@ -1,6 +1,10 @@
 #include "main.h"
 
 /*
+	Przemysław Joniak
+	Systemy Operacyjne
+	2016/2017 IIUwr
+	
 	Napisz w języku C z użyciem semaforów program synchronizujący procesy.
 	Objaśnij cel (założenia) danej synchronizacji oraz udokumentuj zarów-
 	no program, jak i sposób jego testowania. Jako problem do rozwiązania
