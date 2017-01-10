@@ -1,1 +1,1 @@
-[Patrz tutaj.](../cigarette-smokers-problem-2/DOC_pl.md)
+[Patrz tutaj](../cigarette-smokers-problem-2/DOC_pl.md)
