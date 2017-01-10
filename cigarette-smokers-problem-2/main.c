@@ -4,6 +4,8 @@
 	Przemysław Joniak
 	Systemy Operacyje
 	2016/2017 IIUWr 
+
+	W rozwiązaniu użyto procesów.
 	
 	Napisz w języku C z użyciem semaforów program synchronizujący procesy.
 	Objaśnij cel (założenia) danej synchronizacji oraz udokumentuj zarów-
