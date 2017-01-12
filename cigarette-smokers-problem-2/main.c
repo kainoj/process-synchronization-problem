@@ -22,10 +22,6 @@ int main() {
 	srand(time(NULL));
 	Data *shrd_data = mmap( NULL , sizeof( Data ) , PROT_READ | PROT_WRITE , MAP_SHARED | MAP_ANONYMOUS , -1 , 0 );
 
-	shrd_data->table[0]= 6969;
-	
-	printf("datasize = %d\n", sizeof(Data) );
-
 	sem_init(&shrd_data->TobaccoAndPaper,   1, 0);
 	sem_init(&shrd_data->PaperAndMatches,   1, 0);
 	sem_init(&shrd_data->MatchesAndTobacco, 1, 0);
